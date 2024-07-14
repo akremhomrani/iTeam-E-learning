@@ -1,0 +1,69 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/icons/tryit.asp?icon=far_fa-edit&unicon=f044">
+    <link rel="stylesheet" href="header.css">
+    <style>
+      .navbar.fixed {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+  
+      .navbar .dropdown.show .dropdown-menu {
+        display: block;
+      }
+    </style>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        const navbar = document.querySelector('.navbar');
+        const dropdown = document.querySelector('.navbar .dropdown');
+        const dropdownMenu = document.querySelector('.navbar .dropdown-menu');
+  
+        // Add 'fixed' class to navbar on page load if path is '/acceuil'
+        if (window.location.pathname === '/acceuil') {
+          navbar.classList.add('fixed');
+        }
+  
+        // Add 'fixed' class to navbar when dropdown menu is open
+        dropdown.addEventListener('show.bs.dropdown', () => {
+          navbar.classList.add('fixed');
+        });
+  
+        // Remove 'fixed' class from navbar when dropdown menu is closed
+        dropdown.addEventListener('hide.bs.dropdown', () => {
+          navbar.classList.remove('fixed');
+        });
+  
+        // Remove 'fixed' class from navbar when cursor is not on the dropdown items
+        dropdownMenu.addEventListener('mouseleave', () => {
+          if (!dropdown.classList.contains('show')) {
+            navbar.classList.remove('fixed');
+          }
+        });
+      });
+    </script>
+  </head>
+  
+
+  <div class="fixe" >
+  
+  
+    <div class="navbar navbar-fixed-top">
+      <a href="../index.php">
+        <img src="../images/icon/logo.PNG" class="loh" alt="Image 1">
+      </a>
+      <ul >
+        <li  class="info"><a href="/login"><i class="fa fa-user" aria-hidden="true"></i> Candidat</a></li>
+        <li  class="info"><a href="/loginemp"><i class="fa fa-user" aria-hidden="true"></i> Employee</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  
+  
+  

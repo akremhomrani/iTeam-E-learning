@@ -1,0 +1,257 @@
+body{padding-top:20px;}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.card {
+    margin-bottom: 30px;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.mt-n5 {
+    margin-top: -3rem!important;
+}
+
+.linear-gradient {
+    background-image: linear-gradient(#50b2fc,#f44c66);
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.justify-content-center {
+    justify-content: center!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.rounded-2 {
+    border-radius: 7px !important;
+}
+
+.bg-light-info {
+    --bs-bg-opacity: 1;
+    background-color: rgba(235,243,254,1)!important;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.position-relative {
+    position: relative!important;
+}
+
+.shadow-none {
+    box-shadow: none!important;
+}
+
+.overflow-hidden {
+    overflow: hidden!important;
+}
+
+.border {
+    border: 1px solid #ebf1f6 !important;
+}
+
+.fs-6 {
+    font-size: 1.25rem!important;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem!important;
+}
+
+.d-block {
+    display: block!important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.user-profile-tab .nav-item .nav-link.active {
+    color: #5d87ff;
+    border-bottom: 2px solid #5d87ff;
+}
+
+.mb-9 {
+    margin-bottom: 20px!important;
+}
+
+.fw-semibold {
+    font-weight: 600!important;
+}
+.fs-4 {
+    font-size: 1rem!important;
+}
+
+.card, .bg-light {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.fs-2 {
+    font-size: .75rem!important;
+}
+
+.rounded-4 {
+    border-radius: 4px !important;
+}
+
+.ms-7 {
+    margin-left: 30px!important;
+}
+
+/*FOOTER*/
+footer {
+    color: #E5E8EF;
+    background: linear-gradient(to right, #85152E, #08304E);
+    padding: 50px 0;
+  }
+  
+  footer .footer-container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+  }
+  
+  footer .social-media img {
+    width: 22px;
+  }
+  
+  footer .logo {
+    width: 180px;
+    color: #fff;
+  }
+  
+  footer .social-media a {
+    margin-right: 10px;
+    font-size: 22px;
+    text-decoration: none;
+  }
+  
+  footer .right-col h1 {
+    font-size: 26px;
+  }
+  
+  footer .border {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #740e02, #bc074f);
+    margin: 2px;
+  }
+  
+  footer .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .txtb {
+    flex: 1;
+    padding: 18px 40px;
+    font-size: 16px;
+    background: #343A40;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 5px;
+    min-width: 260px;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  footer .btn {
+    margin-top: 20px;
+    padding: 18px 40px;
+    font-size: 16px;
+    color: #f1f1f1;
+    background: linear-gradient(to right, #FA4B37, #DF2771);
+    border: none;
+    font-weight: 700;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  footer .btn:hover {
+    opacity: .7;
+  }
+  
+  .section2 {
+    margin-bottom: 2rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #001935;
+    padding: 2rem 0; /* Add padding for better spacing */
+  }
+  
+  .container2 {
+    max-width: 100%; /* Make sure the container doesn't exceed the viewport width */
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+  }
+  .cover1 {
+    width: 15rem;
+    margin-top: 3rem;
+    animation: moveRight 15s linear infinite; 
+  }
+  
+  .cover1 {
+    width: 100%; /* Make images fill the entire column width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+/*SCROLLING TEXT*/
+.marqu {
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px;
+}
+marquee {
+  background-color: #001935;
+  color: #001935;
+}
+.marqu img{
+width: 10%; 
+height: 20%; 
+
+}

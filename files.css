@@ -1,0 +1,146 @@
+
+/*COURSES AVAILABLE*/
+body{
+	background-color: linear-gradient(to right, #85152E, #08304E);;
+}
+.ccard {
+	display: flex;
+	margin-left: 80px;
+	
+}
+.ccardbox {
+	display: flex;
+	
+}
+
+.dcard {
+	margin: 10px;
+	width: 300px;
+	height: 200px;
+	background: linear-gradient(to right, #85152E, #08304E);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.dcard .fpart {
+	width: inherit;
+	height: 150px;
+	color: #000;
+	text-align: left;
+	overflow: hidden;
+}
+.dcard .fpart img {
+	width: 100%;
+	height: 100%;
+}
+
+.dcard .spart {
+	padding: 10px;
+	padding-right: 0px;
+	color: #fff;
+	text-align: left;
+	cursor: pointer;
+}
+.dcard .spart img {
+	width: 20px;
+	margin-left: 170px;
+	cursor: pointer;
+	/* transform: rotate(180deg); */
+}
+
+.dcard:hover .fpart img{
+	transition: .8s ease;transform: scale(1.2);
+}
+
+input[type="file"] {
+	display: none;
+}
+
+/* Style the custom file input container */
+.custom-file-input {
+	display: inline-block;
+	background-color: #3498db;
+	color: #fff;
+	padding: 8px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Style the label text */
+.custom-file-label {
+	display: inline-block;
+	padding: 8px 15px;
+	border: 1px solid #3498db;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Hide the default file input text */
+.custom-file-label input[type="file"] {
+	display: none;
+}
+
+.wrapper{
+width: 430px;
+height: 400px;
+background: #fff;
+border-radius: 5px;
+padding: 30px;
+box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+margin-left: 30%;
+}
+.wrapper header{
+color: #6990F2;
+font-size: 27px;
+font-weight: 600;
+text-align: center;
+height: 20px;
+}
+
+.addp{
+color: linear-gradient(to right, #b92b27, #1565c0);
+font-size: 27px;
+font-weight: 600;
+text-align: center;
+height: 20px;
+}
+.wrapper form{
+height: 167px;
+display: flex;
+cursor: pointer;
+margin: 30px 0;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 5px;
+border: 2px dashed #6990F2;
+}
+form :where(i, p){
+color: #6990F2;
+}
+form i{
+font-size: 50px;
+}
+form p{
+margin-top: 15px;
+font-size: 16px;
+}
+
+section .row{
+margin-bottom: 10px;
+background: #E9F0FF;
+list-style: none;
+padding: 15px 20px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+section .row i{
+color: #6990F2;
+font-size: 30px;
+}
+section .details span{
+font-size: 14px;
+}
+

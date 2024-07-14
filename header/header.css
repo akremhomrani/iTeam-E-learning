@@ -1,0 +1,115 @@
+
+
+/* navbar transparent */
+.fixe .navbar{
+    width:100%;
+    height: 75px;
+    margin: auto;
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+
+  /* items design */
+  .fixe  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* linkes design */
+  .fixe .navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  /* nzido star ta7t items */
+  .fixe .navbar ul li::after{
+  content:'' ;
+  height: 3px;
+  width: 0;
+  background: #85152E;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+  }
+  
+  .fixe .navbar ul li:hover::after{
+  width: 50%;
+  }
+  .fixe  .navbar ul li i{
+    color: #85152E; 
+  }
+
+  /* Styles pour la navigation mobile (dropdown) */
+  @media (max-width: 768px) {
+    .navbar ul {
+      display: none; /* Masquez la liste des éléments de la navbar */
+    }
+  }
+  
+  .fixe {
+padding-bottom: 75px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 100;
+    background-color: #fff;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 1024px) {
+    .fixe {
+      justify-content: center;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 250px) {
+    .fixe {
+      justify-content: space-between;
+    }
+  }
+  .fixe  .navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    left: 0;
+    z-index: 100;
+    background-color:#001935b4;
+    padding: 10px;
+    position: fixed;
+    margin-top: 0rem;
+  }
+  .fixe .navbar .loh{
+    width: 180px;
+
+  }
+ 
+  .fixe  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fixe  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .fixe  .navbar ul li {
+    margin-right: 20px;
+  }
+  
+  .fixe  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+ 
